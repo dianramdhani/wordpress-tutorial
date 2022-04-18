@@ -1,2 +1,14 @@
-themes/*
-!themes/drl-*
+# Ignore all default wordpress
+wordpress/*
+!wordpress/wp-content
+wordpress/wp-content/*
+!wordpress/wp-content/themes
+!wordpress/wp-content/plugins
+
+# Themes with prefix drl-
+wordpress/wp-content/themes/*
+!wordpress/wp-content/themes/drl-*
+
+# Plugins with prefix drl-
+wordpress/wp-content/plugins/*
+!wordpress/wp-content/plugins/drl-*
