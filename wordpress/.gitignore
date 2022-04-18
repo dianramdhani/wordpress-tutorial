@@ -9,7 +9,9 @@ wp-content/*
 # Themes with prefix drl-
 wp-content/themes/*
 !wp-content/themes/drl-*
+!wp-content/themes/drl-*/*
 
 # Plugins with prefix drl-
 wp-content/plugins/*
 !wp-content/plugins/drl-*
+!wp-content/plugins/drl-*/*
