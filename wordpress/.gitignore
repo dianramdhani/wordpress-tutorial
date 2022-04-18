@@ -1,0 +1,15 @@
+# Ignore all default wordpress
+*
+!.gitignore
+!wp-content
+wp-content/*
+!wp-content/themes
+!wp-content/plugins
+
+# Themes with prefix drl-
+wp-content/themes/*
+!wp-content/themes/drl-*
+
+# Plugins with prefix drl-
+wp-content/plugins/*
+!wp-content/plugins/drl-*
